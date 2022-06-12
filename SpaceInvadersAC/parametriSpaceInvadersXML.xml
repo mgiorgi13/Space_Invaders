@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParametriSpaceInvadersXML>
+	<!--Parametri gioco-->
+	<velocitaNavicellaBonus>1</velocitaNavicellaBonus>
+	<velocitaInvasori>1</velocitaInvasori>
+	<velocitaNavicellaAlleata>12</velocitaNavicellaAlleata>
+	<velocitaMissili>4</velocitaMissili>
+	<punteggioNavicellaBonus>1000</punteggioNavicellaBonus>
+	<vitaScudi>20</vitaScudi>
+	<!--Parametri stilistici-->
+	<font>SansSerif</font>
+	<dimensioneFont>10</dimensioneFont>
+	<lunghezzaFinestraGioco>900</lunghezzaFinestraGioco>
+	<altezzaFinestraGioco>900</altezzaFinestraGioco>
+	<numeroPersoneClassifica>10</numeroPersoneClassifica>
+	<!--Parametri tecnici-->
+	<indirizzoIPClient>127.0.0.1</indirizzoIPClient>
+	<indirizzoIPServerLog>127.0.0.1</indirizzoIPServerLog>
+	<portaServerLog>8080</portaServerLog>
+	<utenteServerClassifica>root</utenteServerClassifica>
+	<passwordServerClassifica></passwordServerClassifica>	
+</ParametriSpaceInvadersXML>

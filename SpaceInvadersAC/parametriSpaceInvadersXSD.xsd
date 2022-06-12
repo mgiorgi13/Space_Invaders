@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ParametriSpaceInvadersXML">
+		<xs:complexType>
+			<xs:sequence>
+				<!--Parametri gioco-->
+				<xs:element name="velocitaNavicellaBonus" type="xs:decimal"/>
+				<xs:element name="velocitaInvasori" type="xs:decimal"/>
+				<xs:element name="velocitaNavicellaAlleata" type="xs:decimal"/>
+				<xs:element name="velocitaMissili" type="xs:decimal"/>
+				<xs:element name="punteggioNavicellaBonus" type="xs:integer"/>
+				<xs:element name="vitaScudi" type="xs:integer"/>
+				<!--Parametri stilistici-->
+				<xs:element name="font" type="xs:string"/>
+				<xs:element name="dimensioneFont" type="xs:integer"/>
+				<xs:element name="lunghezzaFinestraGioco" type="xs:decimal"/>
+				<xs:element name="altezzaFinestraGioco" type="xs:decimal"/>
+				<xs:element name="numeroPersoneClassifica" type="xs:integer"/>
+				<!--Parametri tecnici-->
+				<xs:element name="indirizzoIPClient" type="xs:string"/>
+				<xs:element name="indirizzoIPServerLog" type="xs:string"/>
+				<xs:element name="portaServerLog" type="xs:integer"/>
+				<xs:element name="utenteServerClassifica" type="xs:string"/>
+				<xs:element name="passwordServerClassifica" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

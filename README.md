@@ -8,18 +8,18 @@ This is a desktop application written in Java that allows users to play the game
 
 To install the Space Invaders Game Desktop App, clone the repository:
 
-git clone https://github.com/mgiorgi13/Space_Invaders.git
+`git clone https://github.com/mgiorgi13/Space_Invaders.git`
 
 Navigate to the project directory and compile the Java files:
 
-javac *.java
+`javac *.java`
 
 Start the application using the following command:
 
-java SpaceInvadersAC.java
+`java SpaceInvadersAC.java`
 
 This will start the application on your local machine.
 
 ## Usage
 
-Once logged in, click the "Play" button to start the game. Use your keyboard to control the spaceship and shoot at the invaders. The game will end when the spaceship is destroyed or the player chooses to quit.
+Once logged in, click the "Gioca" button to start the game. Use your keyboard to control the spaceship and shoot at the invaders. The game will end when the spaceship is destroyed or the player chooses to quit.
